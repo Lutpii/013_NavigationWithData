@@ -1,0 +1,28 @@
+halaman= deklarasi(definisi) dari komponen tampilan
+	 deklarasi(fungsi) seperti event button
+
+pengelola halaman = implementasi dari fungsi tiap halaman
+		    Navigasi
+
+View model = Fungsi-fungsi yang mengelola data yang ada di data class
+
+Data class = variable yang menyimpan data
+
+data source = konstanta yang dibutuhkan oleh halaman aplikasi
+
+keatas kirim data
+kebawah ambil data
+
+step membuat aplikasi
+1. Resource seperti color, data nilai nilai konstanta, string, gambar, ukuran, dimensi
+2. Data source(Opsional)
+3. Data Class
+4. View Model
+5. Halaman aplikasi
+6. Pengelola halaman
+
+membuat 3 textfild dan 1 button
+1. 
+
+NOTE
+1. Data Source opsional
