@@ -27,8 +27,12 @@ fun HalamanDua(
     modifier: Modifier = Modifier
 ){
     val items = listOf(
-        Pair(stringResource(R.string.quantity), orderUIState.jumlah),
-        Pair(stringResource(R.string.flavor), orderUIState.rasa)
+        Pair("Nama Pelanggan", orderUIState.namaPelanggan),
+        Pair("Nomor Telepon", orderUIState.nomorTelepon),
+        Pair("Alamat", orderUIState.alamat),
+        Pair("Harga", orderUIState.harga),
+        Pair("Jumlah", orderUIState.jumlah.toString()),
+        Pair("Rasa", orderUIState.rasa)
     )
     Column(
         modifier = Modifier,
